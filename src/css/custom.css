@@ -1,0 +1,78 @@
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+.__pay_now {
+	left: "4000px" !important;
+}
+.__hamburger span {
+	display: block;
+	height: 3px;
+	margin-top: 6px;
+	background-color: white;
+	width: 35px;
+}
+.__banner {
+	background-image: url("/assets/images/banner.png");
+}
+.__banner_text {
+	max-width: 500px;
+}
+.__spacer {
+	background-image: url("/assets/images/banner2.png");
+	min-height: 100vh;
+	height: 100%;
+}
+
+@media screen and (min-width: 400px) {
+	.__spacer {
+		height: 500px;
+	}
+}
+
+button:disabled {
+	background-color: rgba(128, 128, 128, 0.479);
+	color: white;
+}
+.__banner,
+.__spacer {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.__number {
+	font-size: 144px;
+}
+
+.__header {
+	background: #26053a;
+}
+.__slide-top {
+	animation: scale-in-center 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	z-index: 20;
+}
+.__scale-out-center {
+	animation: scale-out-center 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@keyframes scale-out-center {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(0);
+		opacity: 1;
+	}
+}
+
+@keyframes scale-in-center {
+	0% {
+		transform: scale(0);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
