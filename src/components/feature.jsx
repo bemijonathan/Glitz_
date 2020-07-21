@@ -34,13 +34,21 @@ export default function Feature() {
 					<div className="flex rounded-lg h-full  p-8">
 						<div className="items-center mb-3 text-center">
 							<div className="text-center">
-								<img src={element.img} width="50" className="m-auto mb-5" />
+								<img
+									src={element.img}
+									width="50"
+									className="m-auto mb-5"
+									alt="...."
+								/>
 							</div>
 							<h2 className="text-gray-900 text-lg title-font font-medium">
 								{element.title}
 							</h2>
 							<p className="leading-relaxed text-base">{element.subtitle}</p>
-							<a className="mt-3 text-indigo-500 inline-flex items-center">
+							<a
+								className="mt-3 text-indigo-500 inline-flex items-center"
+								href="/"
+							>
 								Learn More
 								<svg
 									fill="none"

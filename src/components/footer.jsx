@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 export default function Footer() {
@@ -9,15 +10,15 @@ export default function Footer() {
 			>
 				<div class="container px-5 py-3 mx-auto flex items-center sm:flex-row flex-col">
 					<a
-						href="#"
+						href="/"
 						class="flex title-font font-medium items-center md:justify-start justify-center text-white"
 					>
-						<img src="/assets/images/logo.png " width="200" />
+						<img src="/assets/images/logo.png " width="200" alt="...." />
 					</a>
 					<p class="text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
 						© 2020
 						<a
-							href="#"
+							href="/"
 							class="text-gray-500 ml-1"
 							target="_blank"
 							rel="noopener noreferrer"

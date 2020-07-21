@@ -33,6 +33,7 @@ export default function GetTheMost() {
 									<img
 										src="assets/images/Group 37.png"
 										className="inline mr-3"
+										alt="..."
 									/>
 									{e}
 								</li>
@@ -53,6 +54,7 @@ export default function GetTheMost() {
 									<img
 										src="assets/images/Group 37.png"
 										className="inline mr-3"
+										alt="..."
 									/>
 									{e}
 								</li>

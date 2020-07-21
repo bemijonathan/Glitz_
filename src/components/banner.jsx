@@ -8,6 +8,9 @@ export default function banner() {
 		<section className="text-gray-500 bg-gray-900 body-font __banner py-20 md:py-0">
 			<div className="container mx-auto ">
 				<div className="flex flex-col sm:flex-row items-center justify-between mx-auto  md:h-screen w-full">
+					<div className="hidden md:block w-1/2">
+						<img src="assets/images/web-mockup.png" alt="........." />
+					</div>
 					<div className="flex-grow md:text-5xl text-3xl text-white font-medium title-font text-white __banner_text px-3 cssanimation leFadeIn sequence ">
 						Startup you can build a website online using the Bootstrap builder.
 						<div className="mt-4 md:mt-0">
@@ -19,7 +22,6 @@ export default function banner() {
 							</button>
 						</div>
 					</div>
-					<div className="hidden md:block"></div>
 				</div>
 			</div>
 		</section>

@@ -6,7 +6,7 @@ export default function UseInput(label, value, type) {
 		return (
 			<div className="pt-3">
 				<input
-					className="px-5 py-2"
+					className="px-5 py-2 w-full"
 					placeholder={label}
 					onChange={(e) => setInput(e.target.value)}
 					type={type}

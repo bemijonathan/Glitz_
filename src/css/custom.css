@@ -13,7 +13,8 @@ body {
 	width: 35px;
 }
 .__banner {
-	background-image: url("/assets/images/banner.png");
+	/* background-image: url("/assets/images/web.png"); */
+	background-color: #26053a !important;
 }
 .__banner_text {
 	max-width: 500px;
