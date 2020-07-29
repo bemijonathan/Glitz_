@@ -29,7 +29,8 @@ export default function Feature() {
 					id="about"
 					className="p-4 md:w-1/3"
 					key={index}
-					data-scrolly-down="bounceInBottom"
+					data-aos="fade-up"
+					data-aos-anchor-placement="center-center"
 				>
 					<div className="flex rounded-lg h-full  p-8">
 						<div className="items-center mb-3 text-center">

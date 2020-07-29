@@ -22,7 +22,7 @@ export default function GetTheMost() {
 					<div
 						className="m-5 p-5 md:w-2/5 rounded-lg p-8"
 						style={{ background: "#26053A" }}
-						data-scrolly-down="fadeInLeft"
+						data-aos="zoom-in-left"
 					>
 						<h1 className="text-white font-bold my-3 text-xl">
 							{"Who is this Training Meant For".toUpperCase()}
@@ -43,7 +43,7 @@ export default function GetTheMost() {
 					<div
 						className="m-5 p-5 md:w-2/5 rounded-lg p-8"
 						style={{ background: "#26053A" }}
-						data-scrolly-down="fadeInRight"
+						data-aos="zoom-in-right"
 					>
 						<h1 className="text-white font-bold my-3 text-xl">
 							{"What you will learn in this training".toUpperCase()}
