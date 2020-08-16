@@ -6,7 +6,7 @@ export default function Feature() {
 			img: "assets/images/work 1.png",
 			title: "Get real employable skills",
 			subtitle:
-				"Our quality curriculum is designed with top-tier industry partners, not academics, so you learn the high-impact skills that top companies want.",
+				"Our quality curriculum is designed with industry partners, not academics, so you learn the high-impact skills that top companies want.",
 		},
 		{
 			img: "assets/images/work2.png",
@@ -25,13 +25,7 @@ export default function Feature() {
 	const features = () => {
 		return list.map((element, index) => {
 			return (
-				<div
-					id="about"
-					className="p-4 md:w-1/3"
-					key={index}
-					data-aos="fade-up"
-					data-aos-anchor-placement="center-center"
-				>
+				<div id="about" className="p-4 md:w-1/3" key={index} data-aos="fade-up">
 					<div className="flex rounded-lg h-full  p-8">
 						<div className="items-center mb-3 text-center">
 							<div className="text-center">
@@ -71,7 +65,7 @@ export default function Feature() {
 	};
 
 	return (
-		<section className="text-gray-700">
+		<section className="text-gray-700 p-3">
 			<div className="container px-5 py-24 mx-auto text-center">
 				<div
 					className="flex flex-col text-center w-full mb-20"
@@ -81,7 +75,8 @@ export default function Feature() {
 						Don't waste your valuable time or money
 					</h1>
 					<h2 className="text-3xl text-black tracking-wide mt-2 font-light title-font mb-1">
-						Only Udacity has all the critical factors to deliver real results
+						Do you want to build a stuning website for your organisation? in 3
+						weeks you can be a pro webdesigner lets show you how
 					</h2>
 				</div>
 				<div className="flex flex-wrap -m-4">{features()}</div>
@@ -89,7 +84,7 @@ export default function Feature() {
 					style={{ background: "#26053A" }}
 					className="px-10 py-2 rounded-full text-white"
 				>
-					Register
+					Register Now
 				</button>
 			</div>
 		</section>

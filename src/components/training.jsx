@@ -20,7 +20,11 @@ export default function Training() {
 	]);
 	return (
 		<>
-			<section className="text-gray-700 body-font" id="schedule">
+			<section
+				className="text-gray-700 body-font"
+				id="schedule"
+				data-aos="fade-up"
+			>
 				<div className="container px-5 py-24 mx-auto">
 					<div className="flex flex-col text-center w-full mb-10">
 						<h2 className="text-3xl  title-font mb-1">Training Schedule</h2>

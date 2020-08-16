@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
-import { showNav } from "../context/nav";
+import { showNav, ShowPayment } from "../context/nav";
 
 const Nav = () => {
 	const Toggle = useContext(showNav);
+	const Payment = useContext(ShowPayment);
 	return (
 		<header className="text-gray-500 body-font fixed w-full __header z-10">
 			<div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center  hidden md:flex">
@@ -26,7 +27,10 @@ const Nav = () => {
 						Register
 					</a>
 				</nav>
-				<button className="inline-flex items-center text-white bg-gray-800 border-0 py-2 px-5 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+				<button
+					className="inline-flex items-center text-white bg-gray-800 border-0 py-2 px-5 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+					onClick={() => Payment.setPay(true)}
+				>
 					Register
 				</button>
 			</div>

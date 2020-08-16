@@ -2,13 +2,26 @@ import React, { useState } from "react";
 
 export default function GetTheMost() {
 	const [list] = useState([
-		"Duo in nominati adolescens",
-		"Duo in nominati adolescens",
-		"Duo in nominati adolescens",
-		"Duo in nominati adolescens",
-		"Duo in nominati adolescens",
-		"Duo in nominati adolescens",
+		"Bloggers",
+		"Graphic Designers",
+		"E-Store and Bussiness Owners",
+		"Children whos interested in Webdesign",
+		"Content Developers",
+		"Enterprenuers",
+		"Any one who hates coding",
 	]);
+
+	const [learn] = useState([
+		"How the internet works.",
+		"Hosting and setting up a Domain name.",
+		"Step involved in web developement",
+		"Introduction to Wordpress",
+		"UI designs and Graphic designs",
+		"Using Web Page builders",
+		"Accepting payments and E-commerce Stores ",
+		"ABCs of FreeLancing",
+	]);
+
 	return (
 		<>
 			<div
@@ -48,7 +61,7 @@ export default function GetTheMost() {
 						<h1 className="text-white font-bold my-3 text-xl">
 							{"What you will learn in this training".toUpperCase()}
 						</h1>
-						{list.map((e, key) => {
+						{learn.map((e, key) => {
 							return (
 								<li className="text-white list-none mb-2" key={key + "b"}>
 									<img
@@ -61,14 +74,6 @@ export default function GetTheMost() {
 							);
 						})}
 					</div>
-				</div>
-				<div className="text-center mt-10">
-					<button
-						style={{ background: "#26053A" }}
-						className="px-10 py-2 rounded-full text-white"
-					>
-						Register
-					</button>
 				</div>
 			</div>
 		</>
